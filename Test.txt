@@ -1,0 +1,118 @@
+
+1) What is react ?
+
+	* Java script Library is React
+	* Open Source
+	* Component Based 
+	* Initially Called FaxJs
+	* Single Page Apllication (SPA)
+	* Create by Jorden Walke Worked in Facebook
+	* Create in 2011 But Officially released 2013	
+
+........................................................................................................
+
+2) What is Component ?
+	* Reusable Code
+	* Component are the building blocks of React
+    
+   Component two types
+	* Function Component
+	* Class Component
+
+........................................................................................................
+
+3) Write Function Syntax ?
+
+        import React from 'react'
+
+	const Name =()=>{
+
+	return(
+		<div>
+		</div>
+		)
+    	}
+
+	export default Name
+
+........................................................................................................
+
+4) Write Class syntax
+
+        import React,{Component} from 'react'
+
+	class Name extends Component{
+
+	render(){
+
+		return(
+			<div>
+			</div>
+		      )
+    	}
+    	}
+	
+	export default Name
+
+..........................................................................................................
+
+5) Write Example of internal style
+
+        import React from 'react'
+
+	const Home =()=>{
+	
+		const colors={color:"red"}
+
+	return(
+		<div style={color}>
+		</div>
+	    	)
+    	}
+
+..........................................................................................................
+
+6) What is JSX
+
+	* Javascript Syntax Extension
+	* You Can Do Write the HTML Code in JS
+
+..........................................................................................................
+
+7) What are th advantages of React
+
+	* Fast and Efficient
+	* Reuseable Component
+	* Better Collaboration
+	* Large Community
+	* Supports For Mobile App Development
+	* Improved User Experience
+
+...........................................................................................................
+
+8) Diffenence Between Real dom and Virtual dom ?
+  
+   Real Dom	
+	* Real DOM is the actual structure of the webpage.
+	* React Update complete document in the Real DOM.
+	* All UI components need to be re-rendered for every DOM update.
+	
+   Virtual dom
+	* Virtual DOM is the virtual representation of Real DOM
+	* React update the state changes in Virtual DOM first and then it syncs with Real DOM
+
+...........................................................................................................
+
+9) Write Any three packages.
+
+	* npm install react-icons
+        * npm install react-slick
+	* npm install sass
+
+...........................................................................................................
+
+10) What is Props ?
+	
+	* Props is a Object
+	* Props Read able only (Immutable)
+	* Parent to Child Pass value
